@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mateshwari Childrens Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #2c7be5;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 16px;
+    }
+    nav {
+      background: #1b5cb8;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 12px 18px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #163f7a;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c7be5;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    footer {
+      background: #1b5cb8;
+      color: #fff;
+      text-align: center;
+      padding: 15px 10px;
+    }
+  
+    .social-fixed {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 999;
+    }
+    .social-fixed a {
+      background: #25D366;
+      color: #fff;
+      padding: 12px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .social-fixed a.fb { background:#1877F2; }
+    .social-fixed a.ig { background:#E1306C; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mateshwari Childrens Academy</h1>
+    <p>Nursery to Class VIII | Quality Education with Values</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#classes">Classes</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Our School</h2>
+    <p>
+      Mateshwari Childrens Academy is committed to providing quality education
+      from Nursery to Class VIII. Our aim is to build a strong foundation in
+      academics along with moral values, discipline, and overall personality
+      development of every child.
+    </p>
+  </section>
+
+  <section id="classes">
+    <h2 class="section-title">Classes Offered</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Pre-Primary</h3>
+        <p>Nursery, LKG, UKG with activity-based learning.</p>
+      </div>
+      <div class="card">
+        <h3>Primary</h3>
+        <p>Classes I to V focusing on basics and concept clarity.</p>
+      </div>
+      <div class="card">
+        <h3>Middle School</h3>
+        <p>Classes VI to VIII with strong academic preparation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="admissions">
+    <h2 class="section-title">Admissions</h2>
+    <p>
+      Admissions are open for Nursery to Class VIII. Parents are requested to
+      visit the school campus for admission details, documents required, and
+      interaction with teachers.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2 class="section-title">Photo Gallery</h2>
+    <div class="cards">
+      <div class="card"><img src="gallery1.jpg" alt="School Activity" style="width:100%; border-radius:6px;"><p>Classroom Activities</p></div>
+      <div class="card"><img src="gallery2.jpg" alt="School Event" style="width:100%; border-radius:6px;"><p>School Events</p></div>
+      <div class="card"><img src="gallery3.jpg" alt="Sports" style="width:100%; border-radius:6px;"><p>Sports & Games</p></div>
+      <div class="card"><img src="gallery4.jpg" alt="Celebration" style="width:100%; border-radius:6px;"><p>Celebrations</p></div>
+    </div>
+  </section>
+
+  <section id="facilities">
+    <h2 class="section-title">Our Facilities</h2>
+    <div class="cards">
+      <div class="card">Qualified & Experienced Teachers</div>
+      <div class="card">Safe & Caring Environment</div>
+      <div class="card">Activity-Based Learning</div>
+      <div class="card">Regular Tests & Assessments</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p>
+      <strong>Mateshwari Childrens Academy</strong><br />
+      Address: Kesaripur, Uttarakhand<br />
+      Phone: 8218114977, 7051291133<br />
+      Email: gautamgaury123@gmail.com
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Mateshwari Childrens Academy. All Rights Reserved.</p>
+  </footer>
+
+  <div class="social-fixed">
+    <a href="https://wa.me/918218114977" target="_blank">WhatsApp Chat</a>
+    <a href="https://www.facebook.com/mateshwarichildrensacademy" target="_blank" class="fb">Facebook</a>
+    <a href="https://www.instagram.com/mateshwarichildrensacademy" target="_blank" class="ig">Instagram</a>
+  </div>
+
+</body>
+</html>
